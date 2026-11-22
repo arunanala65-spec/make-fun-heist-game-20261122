@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0b0b12;
+  height: 100%;
+  overflow: hidden;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+#stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#game {
+  display: block;
+  max-width: 100vw;
+  max-height: 100vh;
+  background: #101018;
+  box-shadow: 0 0 48px rgba(0, 0, 0, 0.8);
+}
+
+#fallback {
+  display: none;
+  color: #d8c98a;
+  padding: 2em;
+  text-align: center;
+}
